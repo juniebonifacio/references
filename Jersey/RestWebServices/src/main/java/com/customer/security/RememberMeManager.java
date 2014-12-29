@@ -23,7 +23,6 @@ public class RememberMeManager extends AbstractRememberMeManager {
 
 	private static final Logger logger = Logger.getLogger(RememberMeManager.class);
 	private static final String LOGGED_IN_USER = "loggedInUser";
-	//private static final String LOGGED_IN_USER = "loggedinuser";
 
 	public void forgetIdentity(SubjectContext subjectContext) {
 		// TODO Auto-generated method stub

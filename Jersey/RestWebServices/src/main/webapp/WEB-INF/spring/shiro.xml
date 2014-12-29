@@ -22,7 +22,7 @@
 <bean id="ShiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
     <property name="securityManager" ref="securityManager"/>
 </bean>
-    <bean id="rememberMeManager" class="com.customer.security.PlmRememberMeManager">
+    <bean id="rememberMeManager" class="com.customer.security.RememberMeManager">
     	
     </bean>
 	<bean name="mainSM" id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
