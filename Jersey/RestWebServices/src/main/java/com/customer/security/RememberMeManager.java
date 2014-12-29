@@ -19,11 +19,9 @@ import org.apache.shiro.web.servlet.ShiroHttpServletRequest;
 import org.apache.shiro.web.subject.WebSubjectContext;
 import org.apache.shiro.web.util.WebUtils;
 
-public class PlmRememberMeManager extends AbstractRememberMeManager {
+public class RememberMeManager extends AbstractRememberMeManager {
 
-	private static final Logger logger = Logger.getLogger(PlmRememberMeManager.class);
-	//private static transient final Logger log = LoggerFactory
-	//		.getLogger(PlmRememberMeManager.class);
+	private static final Logger logger = Logger.getLogger(RememberMeManager.class);
 	private static final String LOGGED_IN_USER = "loggedInUser";
 	//private static final String LOGGED_IN_USER = "loggedinuser";
 
