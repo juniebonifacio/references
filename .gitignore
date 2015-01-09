@@ -2,3 +2,5 @@
 .settings/*
 Jersey/RestWebServices/.settings
 Jersey/RestWebServices/.settings/*
+Spring_Framework/SpringFramework/.classpath
+Spring_Framework/SpringFramework/.project
