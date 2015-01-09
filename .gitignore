@@ -1,6 +1,11 @@
+.metadata
+.metadata/*
 .settings
 .settings/*
 Jersey/RestWebServices/.settings
 Jersey/RestWebServices/.settings/*
-Spring_Framework/SpringFramework/.classpath
-Spring_Framework/SpringFramework/.project
+RemoteSystemsTempFiles
+RemoteSystemsTempFiles/*
+Spring/SpringFramework/.classpath
+Spring/SpringFramework/target
+Spring/SpringFramework/target/*
